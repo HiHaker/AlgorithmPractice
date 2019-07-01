@@ -8,7 +8,7 @@ import java.util.Iterator;
  */
 public class ResizingArrayStack<Item> implements Iterable<Item> {
     private Item[] a = (Item[]) new Object[1]; // 栈元素
-    private int N = 0; // 元素数量
+    private int N = 0; // 当前元素数量
 
     public boolean isEmpty(){
         return  N==0;
@@ -27,6 +27,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         a = temp;
     }
 
+    // 入栈
     public void push(Item item){
         if (N == a.length){
             this.resize(2*a.length);
@@ -34,6 +35,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         a[N++] = item;
     }
 
+    // 出栈
     public Item pop(){
         Item item = a[--N];
         a[N] = null; // 避免对象游离
@@ -48,6 +50,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         return new ReverseArrayIterator();
     }
 
+    // 内部类
     public class ReverseArrayIterator implements Iterator<Item>{
         private int i = N;
 
