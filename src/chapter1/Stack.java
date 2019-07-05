@@ -1,10 +1,12 @@
 package chapter1;
 
+import java.util.Iterator;
+
 /**
  * Created on 2019/7/1 0001
  * BY Jianlong
  */
-public class Stack<Item> {
+public class Stack<Item> implements Iterable<Item>{
     private Node first; //栈顶
     private int N;
 
@@ -38,5 +40,29 @@ public class Stack<Item> {
         first = first.next;
         N = N-1;
         return item;
+    }
+
+    @Override
+    public Iterator<Item> iterator() {
+        return new ListIterator();
+    }
+
+    private class ListIterator implements Iterator<Item>{
+        private Node current = first;
+
+        @Override
+        public boolean hasNext() {
+            return current!= null;
+        }
+
+        @Override
+        public Item next() {
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
+
+        @Override
+        public void remove() {}
     }
 }
