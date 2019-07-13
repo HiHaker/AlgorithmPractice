@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mooc/week1/MaxSubseqSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mooc/week1/MaxSubseqSum.java">
+        <entry file="file://$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/src/mooc/week1/PrintNTest.java" />
         <option value="$PROJECT_DIR$/src/mooc/week1/CalPolynomial.java" />
         <option value="$PROJECT_DIR$/src/mooc/week1/MaxSubseqSum.java" />
+        <option value="$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java" />
       </list>
     </option>
   </component>
@@ -81,8 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,10 +100,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalPolynomial">
+  <component name="RunManager" selected="Application.MaxSubseqSum">
     <configuration name="CalPolynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mooc.week1.CalPolynomial" />
       <module name="AlgorithmPractice" />
@@ -151,6 +159,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSubseqSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mooc.week1.quiz.MaxSubseqSum" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mooc.week1.quiz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,6 +207,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubseqSum" />
         <item itemvalue="Application.CalPolynomial" />
         <item itemvalue="Application.PrintNTest" />
         <item itemvalue="Application.FixedCapacityStackOfStrings" />
@@ -211,7 +233,8 @@
       <workItem from="1562336872723" duration="1329000" />
       <workItem from="1562903537865" duration="5000" />
       <workItem from="1562941447404" duration="974000" />
-      <workItem from="1562981603082" duration="4771000" />
+      <workItem from="1562981603082" duration="4804000" />
+      <workItem from="1563006081042" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -304,17 +327,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562984655525</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="数据结构mooc学习-week1">
+      <created>1562990659788</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562990659788</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25802000" />
+    <option name="totallyTimeSpent" value="28165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +353,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,8 +544,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mooc/week1/MaxSubseqSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="1485">
           <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
