@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mooc/week1/PrintNTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mooc/week1/CalPolynomial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,12 +16,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mooc/week1/PrintNTest.java">
+        <entry file="file://$PROJECT_DIR$/src/mooc/week1/CalPolynomial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="406">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -56,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/chapter1/Queue.java" />
         <option value="$PROJECT_DIR$/src/chapter1/Bag.java" />
         <option value="$PROJECT_DIR$/src/mooc/week1/PrintNTest.java" />
+        <option value="$PROJECT_DIR$/src/mooc/week1/CalPolynomial.java" />
       </list>
     </option>
   </component>
@@ -79,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -102,7 +104,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,7 +130,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintNTest">
+  <component name="RunManager" selected="Application.CalPolynomial">
+    <configuration name="CalPolynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mooc.week1.CalPolynomial" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mooc.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FixedCapacityStackOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.FixedCapacityStackOfStrings" />
       <module name="AlgorithmPractice" />
@@ -171,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalPolynomial" />
         <item itemvalue="Application.PrintNTest" />
         <item itemvalue="Application.FixedCapacityStackOfStrings" />
         <item itemvalue="Application.PairTest1" />
@@ -194,7 +209,8 @@
       <workItem from="1562065911238" duration="2547000" />
       <workItem from="1562336872723" duration="1329000" />
       <workItem from="1562903537865" duration="5000" />
-      <workItem from="1562941447404" duration="913000" />
+      <workItem from="1562941447404" duration="974000" />
+      <workItem from="1562981603082" duration="1970000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -273,17 +289,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562338130248</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="数据结构mooc学习-week1">
+      <created>1562942392722</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562942392722</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20970000" />
+    <option name="totallyTimeSpent" value="23001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,7 +315,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,7 +352,8 @@
     <MESSAGE value="队列的链表实现" />
     <MESSAGE value="实现了可迭代" />
     <MESSAGE value="实现了背包" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了背包" />
+    <MESSAGE value="数据结构mooc学习-week1" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据结构mooc学习-week1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -465,17 +489,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mooc/week1.java">
+    <entry file="file://$PROJECT_DIR$/src/mooc/week1.java" />
+    <entry file="file://$PROJECT_DIR$/src/mooc/week1/PrintNTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="702">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mooc/week1/PrintNTest.java">
+    <entry file="file://$PROJECT_DIR$/src/mooc/week1/CalPolynomial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="406">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
