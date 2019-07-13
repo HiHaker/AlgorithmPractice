@@ -1,4 +1,4 @@
-package mooc.week1.quiz;
+package mooc.quiz;
 
 import java.util.Scanner;
 

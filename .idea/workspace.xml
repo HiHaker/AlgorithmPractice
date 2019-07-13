@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mooc/quiz/MaximumSubseqSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mooc/quiz/MaxSubseqSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mooc/quiz/MaxSubseqSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="629">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mooc/quiz/MaximumSubseqSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -59,6 +69,9 @@
         <option value="$PROJECT_DIR$/src/mooc/week1/CalPolynomial.java" />
         <option value="$PROJECT_DIR$/src/mooc/week1/MaxSubseqSum.java" />
         <option value="$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java" />
+        <option value="$PROJECT_DIR$/src/mooc/week2/Hello.java" />
+        <option value="$PROJECT_DIR$/src/mooc/quiz/MaxSubseqSum.java" />
+        <option value="$PROJECT_DIR$/src/mooc/quiz/MaximumSubseqSum.java" />
       </list>
     </option>
   </component>
@@ -98,21 +111,21 @@
               <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
+              <item name="mooc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
+              <item name="mooc" type="462c0819:PsiDirectoryNode" />
               <item name="quiz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxSubseqSum">
+  <component name="RunManager" selected="Application.MaximumSubseqSum">
     <configuration name="CalPolynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mooc.week1.CalPolynomial" />
       <module name="AlgorithmPractice" />
@@ -167,11 +180,11 @@
       </method>
     </configuration>
     <configuration name="MaxSubseqSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mooc.week1.quiz.MaxSubseqSum" />
+      <option name="MAIN_CLASS_NAME" value="mooc.quiz.MaxSubseqSum" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mooc.week1.quiz.*" />
+          <option name="PATTERN" value="mooc.quiz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Base.PairTest1" />
+    <configuration name="MaximumSubseqSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mooc.quiz.MaximumSubseqSum" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Base.*" />
+          <option name="PATTERN" value="mooc.quiz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSubseqSum" />
         <item itemvalue="Application.MaxSubseqSum" />
         <item itemvalue="Application.CalPolynomial" />
         <item itemvalue="Application.PrintNTest" />
         <item itemvalue="Application.FixedCapacityStackOfStrings" />
-        <item itemvalue="Application.PairTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +247,8 @@
       <workItem from="1562903537865" duration="5000" />
       <workItem from="1562941447404" duration="974000" />
       <workItem from="1562981603082" duration="4804000" />
-      <workItem from="1563006081042" duration="2330000" />
+      <workItem from="1563006081042" duration="4437000" />
+      <workItem from="1563018963878" duration="3176000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -334,17 +348,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562990659788</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="最大子列和问题">
+      <created>1563008611227</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563008611227</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28165000" />
+    <option name="totallyTimeSpent" value="33448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,7 +412,9 @@
     <MESSAGE value="实现了可迭代" />
     <MESSAGE value="实现了背包" />
     <MESSAGE value="数据结构mooc学习-week1" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据结构mooc学习-week1" />
+    <MESSAGE value="数据结构mooc学习-最大子列和问题" />
+    <MESSAGE value="最大子列和问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="最大子列和问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -549,10 +572,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mooc/week1/quiz/MaxSubseqSum.java">
+    <entry file="file://$PROJECT_DIR$/src/mooc/week1/week2/Hello.java" />
+    <entry file="file://$PROJECT_DIR$/src/mooc/week2/Hello.java" />
+    <entry file="file://$PROJECT_DIR$/src/mooc/quiz/MaxSubseqSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="629">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mooc/quiz/MaximumSubseqSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
     </entry>
