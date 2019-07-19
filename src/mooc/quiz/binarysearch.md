@@ -7,14 +7,12 @@ Position BinarySearch(List L, ElementType X){
     int mid = (left + right)/2;
     
     while(left <= right){
-        if (L->Data[mid + 1] == X){
-            return (mid + 1);
-        } else if (L->Data[mid + 1] < X) {
-            left = mid;
-            left++;
-        } else if (L->Data[mid + 1] > X) {
-            right = mid;
-            right--;
+        if (L->Data[mid] == X){
+            return mid;
+        } else if (L->Data[mid] < X) {
+            left = mid + 1;
+        } else if (L->Data[mid] > X) {
+            right = mid - 1;
         }
         mid = (left + right)/2;
     }
