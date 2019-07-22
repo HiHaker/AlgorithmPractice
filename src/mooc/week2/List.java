@@ -21,7 +21,7 @@ public class List<Item> {
     }
 
     // 返回List的大小
-    public int size(){
+    public int length(){
         return last+1;
     }
 
