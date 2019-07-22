@@ -32,6 +32,7 @@ public class FixedCapacityStack<Item> {
     }
 
     public void push(Item item){
+        // 因为N代表size，所以当N等于length时说明满了，需要增加空间
         if (N == a.length){
             this.resize(2*a.length);
         }

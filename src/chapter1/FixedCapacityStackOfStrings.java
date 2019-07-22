@@ -8,6 +8,7 @@ import java.util.Scanner;
  * 定容栈
  */
 public class FixedCapacityStackOfStrings {
+    // 数组（顺序存储）
     private String[] a;
     private int N; // 当前的size
 
