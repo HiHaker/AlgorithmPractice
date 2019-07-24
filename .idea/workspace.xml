@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/documents/Java实现队列的线性存储和链式存储.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mooc/week2/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mooc/week2/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mooc/quiz/Polynomial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mooc/quiz/mergeList.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mooc/quiz/test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,12 +18,33 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mooc/week2/Queue.java">
+        <entry file="file://$PROJECT_DIR$/src/mooc/quiz/mergeList.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="556">
+                <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mooc/quiz/test.c">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mooc/quiz/Polynomial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1782">
-              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state relative-caret-position="-577">
+              <caret line="95" column="51" lean-forward="true" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
+              <folding>
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,6 +92,9 @@
         <option value="$PROJECT_DIR$/src/mooc/week2/Stack.java" />
         <option value="$PROJECT_DIR$/src/mooc/week2/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/mooc/week2/Queue.java" />
+        <option value="$PROJECT_DIR$/src/mooc/quiz/test.c" />
+        <option value="$PROJECT_DIR$/src/mooc/quiz/Polynomial.java" />
+        <option value="$PROJECT_DIR$/src/mooc/quiz/mergeList.md" />
       </list>
     </option>
   </component>
@@ -94,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,11 +136,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mooc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlgorithmPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mooc" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayQueue">
+  <component name="RunManager" selected="Application.Polynomial">
     <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mooc.week2.ArrayQueue" />
       <module name="AlgorithmPractice" />
@@ -200,8 +231,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubseqSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mooc.quiz.MaximumSubseqSum" />
+    <configuration name="Polynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mooc.quiz.Polynomial" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
@@ -215,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Polynomial" />
         <item itemvalue="Application.ArrayQueue" />
         <item itemvalue="Application.ArrayStack" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.List" />
-        <item itemvalue="Application.MaximumSubseqSum" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +283,10 @@
       <workItem from="1563779768182" duration="7518000" />
       <workItem from="1563802646887" duration="5548000" />
       <workItem from="1563856910096" duration="3825000" />
-      <workItem from="1563878855026" duration="4493000" />
+      <workItem from="1563878855026" duration="4843000" />
+      <workItem from="1563933545142" duration="13000" />
+      <workItem from="1563933581910" duration="12418000" />
+      <workItem from="1563956670025" duration="5212000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -408,11 +442,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563861060181</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="队列的线性存储和链式存储">
+      <created>1563883389292</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1563883389292</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61145000" />
+    <option name="totallyTimeSpent" value="79138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,8 +466,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30597016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31556502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -436,7 +478,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2537961" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -482,7 +524,8 @@
     <MESSAGE value="线性表的链式存储" />
     <MESSAGE value="栈的顺序存储和链式存储" />
     <MESSAGE value="更新了博客" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了博客" />
+    <MESSAGE value="队列的线性存储和链式存储" />
+    <option name="LAST_COMMIT_MESSAGE" value="队列的线性存储和链式存储" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -560,16 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mooc/quiz/binarysearch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -728,8 +761,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mooc/week2/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mooc/quiz/binarysearch.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mooc/quiz/Polynomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="95" column="51" lean-forward="true" selection-start-line="95" selection-start-column="51" selection-end-line="95" selection-end-column="51" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mooc/quiz/test.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mooc/quiz/mergeList.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="556">
+            <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
