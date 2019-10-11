@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CCF/MinMidBig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CCF/image/MinMidBig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/course/MySort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/META-INF/AlgorithmPractice.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/META-INF/AlgorithmPractice.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/course/MySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course/MySort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +66,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.MySort">
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.Hanoi" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinMidBig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCF.MinMidBig" />
       <module name="AlgorithmPractice" />
@@ -121,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversingLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mooc.quiz.ReversingLinkedList" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mooc.quiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MySort" />
+        <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.MinMidBig" />
         <item itemvalue="Application.Polynomial" />
         <item itemvalue="Application.PopSequence" />
-        <item itemvalue="Application.ReversingLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +183,13 @@
       <workItem from="1568515131340" duration="10000" />
       <workItem from="1569126421701" duration="5229000" />
       <workItem from="1569134480891" duration="3283000" />
+      <workItem from="1569309082787" duration="125000" />
+      <workItem from="1569313588946" duration="17000" />
+      <workItem from="1570451924350" duration="587000" />
+      <workItem from="1570453377350" duration="2208000" />
+      <workItem from="1570774069673" duration="2149000" />
+      <workItem from="1570778364369" duration="4374000" />
+      <workItem from="1570790019642" duration="7273000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -369,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564054904289</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="算法设计课程作业">
+      <created>1569309151624</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1569309151624</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -399,7 +410,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="初始化" />
     <MESSAGE value="说明" />
     <MESSAGE value="简单的泛型类编写" />
     <MESSAGE value="定容栈实现" />
@@ -424,7 +434,8 @@
     <MESSAGE value="有序链表合并和多项式的加减" />
     <MESSAGE value="ReversingLinkedList" />
     <MESSAGE value="PopSequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="PopSequence" />
+    <MESSAGE value="算法设计课程作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法设计课程作业" />
   </component>
   <component name="masterDetails">
     <states>

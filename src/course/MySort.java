@@ -1,5 +1,6 @@
 package course;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**
@@ -8,10 +9,10 @@ import java.util.Scanner;
  */
 public class MySort {
     // 选择排序
-    public int[] selectionSort(int[] list){
-        int min; // 存储每一趟的最小值
+    public void selectionSort(double[] list){
+        double min; // 存储每一趟的最小值
         int minIndex;
-        int mid; //交换的中间值
+        double mid; //交换的中间值
         // 要进行n-1趟
         for (int i=0; i<list.length-1; i++){
             min = list[i];
@@ -26,12 +27,11 @@ public class MySort {
             list[i] = list[minIndex];
             list[minIndex] = mid;
         }
-        return list;
     }
 
     // 插入排序
-    public int[] insertSort(int[] list){
-        int insertNum;
+    public void insertSort(double[] list){
+        double insertNum;
         for (int i=1; i<list.length; i++){
             insertNum = list[i];
             // j表示插入的位置
@@ -47,10 +47,101 @@ public class MySort {
                 }
             }
         }
-        return list;
     }
 
-    // 归并排序（递归实现）
+    // 冒泡排序
+    public void bubbleSort(double[] list){
+        // 假设数组的元素规模为n，循环遍历整个待排序数组n-1次
+        // 每一次循环比较相邻两个数，较大的数放在右边，这样，循环1次，整个数组中最大的数就会冒到最后面
+        // 循环n-1次，整个数组就会变得有序
+        double mid; // 交换的中间值存储变量
+        for (int i=1; i<list.length-1; i++){
+            for (int j=0; j<list.length-1; j++){
+                if (list[j] > list[j+1]){
+                    // 交换
+                    mid = list[j];
+                    list[j] = list[j+1];
+                    list[j+1] = mid;
+                }
+            }
+        }
+    }
+
+    // 自底向上归并函数的merge操作
+    // as,ae为第一个子数组的首尾
+    // bs，be为第二个子数组的首尾
+    public void merge(double[] list, int as, int ae, int bs, int be){
+        int len = be-as+1; // 整个数组的长度
+        double[] temp = new double[len];// 临时数组存放临时排序结果
+        int i=as;
+        int j=bs;
+        int k=0;
+        while (i<=ae&&j<=be){
+            if (list[i] > list[j]){
+                temp[k] = list[j];
+                k++;
+                j++;
+            } else {
+                temp[k] = list[i];
+                k++;
+                i++;
+            }
+        }
+
+        if (i>ae){
+            while (j<=be){
+                temp[k]=list[j];
+                j++;
+                k++;
+            }
+        }
+
+        if (j>be){
+            while (i<=ae){
+                temp[k]=list[i];
+                i++;
+                k++;
+            }
+        }
+
+        for ( int r=0; r<len; r++){
+            list[as+r] = temp[r];
+        }
+    }
+
+    // 归并排序（自底向上）
+    public void mergeSortDownToUp(double[] list){
+        int index; // 索引
+        int width; // 每一次需要排序的子数组大小
+        int begin; // 子数组开始
+        int end; // 两个子数组结尾
+        int mid;
+
+        // 最外层循环为每一次merge时每组数据的宽度，从1开始，以2倍的速度递增，直到宽度大于长度
+        for ( width=1; width<list.length; width*=2){
+            // 内层循环,每一次根据数据的宽度进行两组数据的归并
+            // index每一次从数组开始位置开始，以2倍数据宽度的速度增加，到了不足1组数据时停止
+            for ( index=0; index<(list.length-width); index+=width*2){
+                // 判断是否是完整的两组数据
+                // 如果当前子数组的第一个元素加上两倍的数组大小后大于数据长度，说明此子数组不是完整的两组数据
+                if (index+width*2>list.length){
+                    begin = index;
+                    mid = index+width;
+                    end = list.length-1;
+                } else{
+                    begin = index;
+                    mid = index + width;
+                    end = index + (2*width-1);
+                }
+                // 归并两个数组
+                merge(list,begin,(mid-1),mid,end);
+//                System.out.println("as: " +begin+ "ae: " +(mid-1)+ " bs: " +mid+ "be: " + end);
+            }
+//            System.out.println("--------------------------------------------------");
+        }
+    }
+
+    // 归并排序（自顶向下，递归实现）
     public int[] mergeSort(int[] list){
         // 基线条件（数组长度为1）
         if (list.length == 1){
@@ -107,42 +198,61 @@ public class MySort {
 
     public static void main(String[] args) {
         MySort mySort = new MySort();
-        Scanner in = new Scanner(System.in); // 标准输入流
-
-        long beginTime;
-        long endTime;
-
-        String[] datas;
-        int[] result;
-
-        datas = in.nextLine().split(" ");
-        int[] list1 = new int[datas.length];
-        for (int i=0; i<datas.length; i++){
-            list1[i] = Integer.parseInt(datas[i]);
+        double[] data = new double[100000];
+        // 生成0~100间的double
+        for (int i=0; i<data.length; i++){
+            data[i] = Math.random()*100;
         }
 
-        // 得到当前的毫秒数
-        beginTime = System.nanoTime();
-        for (int i=0; i<100; i++){
-            mySort.mergeSort(list1);
-        }
-        // 结束时的毫秒数
-        endTime = System.nanoTime();
-        System.out.println(endTime-beginTime);
+        long start;
+        long end;
 
-        beginTime = System.nanoTime();
-        for (int i=0; i<100; i++){
-            mySort.insertSort(list1);
-        }
-        endTime = System.nanoTime();
-        System.out.println(endTime-beginTime);
+        start=System.currentTimeMillis();
+        mySort.selectionSort(data);
+        end=System.currentTimeMillis();
+        System.out.println(end-start);
 
-        beginTime = System.nanoTime();
-        for (int i=0; i<100; i++){
-            mySort.selectionSort(list1);
-        }
-        endTime = System.nanoTime();
-        System.out.println(endTime-beginTime);
+//        for (int j=1; j<=3; j++){
+//
+//        }
+//        double[] test = {6.0,5.0,4.0,3.0,2.0,1.0};
+//        MySort mySort = new MySort();
+//        Scanner in = new Scanner(System.in); // 标准输入流
+//
+//        long beginTime;
+//        long endTime;
+//
+//        String[] datas;
+//        int[] result;
+//
+//        datas = in.nextLine().split(" ");
+//        int[] list1 = new int[datas.length];
+//        for (int i=0; i<datas.length; i++){
+//            list1[i] = Integer.parseInt(datas[i]);
+//        }
+//
+//        // 得到当前的毫秒数
+//        beginTime = System.nanoTime();
+//        for (int i=0; i<100; i++){
+//            mySort.mergeSort(list1);
+//        }
+//        // 结束时的毫秒数
+//        endTime = System.nanoTime();
+//        System.out.println(endTime-beginTime);
+//
+//        beginTime = System.nanoTime();
+//        for (int i=0; i<100; i++){
+//            mySort.insertSort(list1);
+//        }
+//        endTime = System.nanoTime();
+//        System.out.println(endTime-beginTime);
+//
+//        beginTime = System.nanoTime();
+//        for (int i=0; i<100; i++){
+//            mySort.selectionSort(list1);
+//        }
+//        endTime = System.nanoTime();
+//        System.out.println(endTime-beginTime);
 //        datas = in.nextLine().split(" ");
 //        int[] list2 = new int[datas.length];
 //        for (int i=0; i<datas.length; i++){
