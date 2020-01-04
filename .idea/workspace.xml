@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course/BagProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course/DynamicPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/course/EightQueen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlgorithmPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmPractice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/mooc/week1/MaxSubseqSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/mooc/week1/MaxSubseqSum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/course/MySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/course/MySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mooc/week1/MaxSubseqSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mooc/week1/MaxSubseqSum.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -37,11 +45,25 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,23 +73,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="unitTest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MySort">
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.Hanoi" />
+  <component name="RunManager" selected="Application.EightQueen">
+    <configuration name="BackTrackAndBranchBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.BackTrackAndBranchBound" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
@@ -79,21 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMidBig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CCF.MinMidBig" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CCF.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.MySort" />
+    <configuration name="BagProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.BagProblem" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mooc.quiz.Polynomial" />
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.Dijkstra" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mooc.quiz.*" />
+          <option name="PATTERN" value="course.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mooc.quiz.PopSequence" />
+    <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.EightQueen" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mooc.quiz.*" />
+          <option name="PATTERN" value="course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.JobAllocation" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +151,25 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MySort" />
-        <item itemvalue="Application.Hanoi" />
-        <item itemvalue="Application.MinMidBig" />
-        <item itemvalue="Application.Polynomial" />
-        <item itemvalue="Application.PopSequence" />
+        <item itemvalue="Application.EightQueen" />
+        <item itemvalue="Application.JobAllocation" />
+        <item itemvalue="Application.BackTrackAndBranchBound" />
+        <item itemvalue="Application.Dijkstra" />
+        <item itemvalue="Application.BagProblem" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -189,7 +219,33 @@
       <workItem from="1570453377350" duration="2208000" />
       <workItem from="1570774069673" duration="2149000" />
       <workItem from="1570778364369" duration="4374000" />
-      <workItem from="1570790019642" duration="7273000" />
+      <workItem from="1570790019642" duration="7382000" />
+      <workItem from="1571668433214" duration="4778000" />
+      <workItem from="1571703241790" duration="11056000" />
+      <workItem from="1571725163634" duration="968000" />
+      <workItem from="1571731391042" duration="5295000" />
+      <workItem from="1571817790518" duration="705000" />
+      <workItem from="1571818519927" duration="142000" />
+      <workItem from="1571818677496" duration="282000" />
+      <workItem from="1571818975529" duration="4440000" />
+      <workItem from="1571830236195" duration="3328000" />
+      <workItem from="1571879152788" duration="25000" />
+      <workItem from="1572501766283" duration="95000" />
+      <workItem from="1572501941265" duration="1621000" />
+      <workItem from="1573051659187" duration="2640000" />
+      <workItem from="1573287573883" duration="11000" />
+      <workItem from="1574233003223" duration="3951000" />
+      <workItem from="1574245161410" duration="7533000" />
+      <workItem from="1574262116793" duration="2598000" />
+      <workItem from="1574296485640" duration="514000" />
+      <workItem from="1574817216242" duration="3119000" />
+      <workItem from="1574851812536" duration="88000" />
+      <workItem from="1574852040022" duration="143000" />
+      <workItem from="1574852224297" duration="15000" />
+      <workItem from="1575333951109" duration="9082000" />
+      <workItem from="1575351793329" duration="6098000" />
+      <workItem from="1575373200477" duration="653000" />
+      <workItem from="1578104133122" duration="3501000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -380,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569309151624</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="增加了自底向上的归并排序算法">
+      <created>1570798888377</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1570798888377</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -410,7 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="说明" />
     <MESSAGE value="简单的泛型类编写" />
     <MESSAGE value="定容栈实现" />
     <MESSAGE value="定容栈增加泛型" />
@@ -435,7 +497,38 @@
     <MESSAGE value="ReversingLinkedList" />
     <MESSAGE value="PopSequence" />
     <MESSAGE value="算法设计课程作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法设计课程作业" />
+    <MESSAGE value="增加了自底向上的归并排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了自底向上的归并排序算法" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1578116439914">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578116439914" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578104169184">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578104169184" />
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1578118659234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578118659234" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1578118659234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578118659234" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1578118659234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578118659234" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1578118659234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578118659234" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578118465671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578118465671" />
   </component>
   <component name="masterDetails">
     <states>
