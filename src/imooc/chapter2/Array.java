@@ -6,17 +6,17 @@ package imooc.chapter2;
  */
 public class Array<E> {
     private E[] data;
-    // ÓĞĞ§ÔªËØ
+    // æœ‰æ•ˆå…ƒç´ 
     private int size;
 
-    // ÎŞ²ÎÊıµÄ¹¹Ôìº¯Êı
+    // æ— å‚æ•°çš„æ„é€ å‡½æ•°
     public Array(){
         this(10);
     }
 
-    // ¹¹Ôìº¯Êı
+    // æ„é€ å‡½æ•°
     public Array(int capacity){
-        // Java²»Ö§³ÖnewÒ»¸ö·ºĞÍÊı×é
+        // Javaä¸æ”¯æŒnewä¸€ä¸ªæ³›å‹æ•°ç»„
         data = (E[])new Object[capacity];
     }
 
@@ -39,6 +39,14 @@ public class Array<E> {
         return data[index];
     }
 
+    public E getFirst(){
+        return get(0);
+    }
+
+    public E getLast(){
+        return get(size-1);
+    }
+
     public void set(int index, E e){
         if (index <0 || index >= size){
             throw new IllegalArgumentException("Get failed. Index is illegal.");
@@ -46,7 +54,7 @@ public class Array<E> {
         data[index] = e;
     }
 
-    // ÊÇ·ñ°üº¬Ä³¸öÔªËØ
+    // æ˜¯å¦åŒ…å«æŸä¸ªå…ƒç´ 
     public boolean contains(E e){
         for (int i=0; i<size; i++){
             if (data[i].equals(e)){
@@ -56,7 +64,7 @@ public class Array<E> {
         return false;
     }
 
-    // ÕÒµ½ÔªËØe¶ÔÓ¦µÄË÷Òı
+    // æ‰¾åˆ°å…ƒç´ eå¯¹åº”çš„ç´¢å¼•
     public int find(E e){
         for (int i=0; i<size; i++){
             if (data[i].equals(e)){
@@ -66,13 +74,13 @@ public class Array<E> {
         return -1;
     }
 
-    // ´úÂë¸´ÓÃ
-    // Í·Ìí¼ÓÔªËØ
+    // ä»£ç å¤ç”¨
+    // å¤´æ·»åŠ å…ƒç´ 
     public void addFirst(E e){
         add(0,e);
     }
 
-    // Ä©Î²Ôö¼ÓÔªËØ
+    // æœ«å°¾å¢åŠ å…ƒç´ 
     public void addLast(E e){
         add(size,e);
     }
@@ -85,7 +93,7 @@ public class Array<E> {
         data = newData;
     }
 
-    // Î»ÖÃ²åÈëÔªËØ
+    // ä½ç½®æ’å…¥å…ƒç´ 
     public void add(int index, E e){
         if (index < 0 || index > size){
             throw new IllegalArgumentException("Add failed. Require index >= 0 and <= size");
@@ -112,7 +120,7 @@ public class Array<E> {
         return remove(size-1);
     }
 
-    // ´ÓÊı×éÖĞÉ¾³ıindexÎ»ÖÃµÄÔªËØ£¬·µ»ØÉ¾³ıµÄÔªËØ
+    // ä»æ•°ç»„ä¸­åˆ é™¤indexä½ç½®çš„å…ƒç´ ï¼Œè¿”å›åˆ é™¤çš„å…ƒç´ 
     public E remove(int index){
         if (index < 0 || index > size){
             throw new IllegalArgumentException("Remove failed. Require index >= 0 and <= size");
@@ -132,7 +140,7 @@ public class Array<E> {
         return ret;
     }
 
-    // ´ÓÊı×éÖĞÉ¾³ıÔªËØe£¨µÚÒ»¸öÔªËØ£©
+    // ä»æ•°ç»„ä¸­åˆ é™¤å…ƒç´ eï¼ˆç¬¬ä¸€ä¸ªå…ƒç´ ï¼‰
     public void removeElement(E e){
         int index = find(e);
         if (index != -1){
