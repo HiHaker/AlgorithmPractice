@@ -1,42 +1,22 @@
 package imooc;
 
-import imooc.chapter3.ArrayQueue;
-import imooc.chapter3.LoopQueue;
-import imooc.chapter3.Queue;
 
-import java.util.Random;
+import imooc.chapter4.LinkedListQueue;
 
 /**
  * Created on 2020/1/8 0008
  * BY Jianlong
  */
 public class Main {
-    private static double testQueue(Queue<Integer> q, int opCount){
-        long startTime = System.nanoTime();
-
-        Random random = new Random();
-
-        for (int i=0; i<opCount; i++){
-            q.enqueue(random.nextInt(Integer.MAX_VALUE));
-        }
-        for (int i=0; i<opCount; i++){
-            q.dequeue();
-        }
-
-        long endTime = System.nanoTime();
-
-        return (endTime-startTime) / 1000000000.0;
-    }
 
     public static void main(String[] args) {
-        int opCount = 100000;
-
-        ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
-        double time1 = testQueue(arrayQueue, opCount);
-        System.out.println("ArrayQueue, time: " + time1 + "s");
-
-        LoopQueue<Integer> loopQueue = new LoopQueue<>();
-        double time2 = testQueue(loopQueue, opCount);
-        System.out.println("LoopQueue, time: " + time2 + "s");
+        LinkedListQueue<Integer> queue = new LinkedListQueue<>();
+        for (int i=0; i<10; i++){
+            queue.enqueue(i);
+            if (i%3 == 2){
+                queue.dequeue();
+            }
+            System.out.println(queue);
+        }
     }
 }

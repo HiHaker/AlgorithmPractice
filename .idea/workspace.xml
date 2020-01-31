@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter3/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter3/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter3/LoopQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter3/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter3/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter3/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/chapter4/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/chapter4/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/chapter4/LinkedListStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc/chapter2/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter2/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc/chapter2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,19 +82,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="BackTrackAndBranchBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.BackTrackAndBranchBound" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course.EightQueen" />
       <module name="AlgorithmPractice" />
@@ -120,6 +101,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.chapter4.LinkedListStack" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="imooc.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.EightQueen" />
         <item itemvalue="Application.JobAllocation" />
-        <item itemvalue="Application.BackTrackAndBranchBound" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +251,12 @@
       <workItem from="1578747404070" duration="10000" />
       <workItem from="1578821734353" duration="4454000" />
       <workItem from="1578903197755" duration="7616000" />
+      <workItem from="1578917171309" duration="454000" />
+      <workItem from="1579245229982" duration="7028000" />
+      <workItem from="1579515766533" duration="1751000" />
+      <workItem from="1580456968364" duration="30000" />
+      <workItem from="1580457071954" duration="3750000" />
+      <workItem from="1580467974437" duration="2645000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -468,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578733353305</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="栈和队列">
+      <created>1578917212051</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1578917212051</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -498,7 +505,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="定容栈增加泛型" />
     <MESSAGE value="较好的可动态增长栈实现" />
     <MESSAGE value="链表学习起步" />
     <MESSAGE value="栈的链表实现" />
@@ -523,14 +529,15 @@
     <MESSAGE value="增加了自底向上的归并排序算法" />
     <MESSAGE value="N皇后问题" />
     <MESSAGE value="动态数组学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态数组学习" />
+    <MESSAGE value="栈和队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈和队列" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1578915484703">
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1580468374167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578116439914" />
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578915484703" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580468374167" />
     <state x="1081" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578720672538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -539,31 +546,31 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578104169184" />
-    <state x="446" y="3" key="CommitChangelistDialog2" timestamp="1578733351331">
+    <state x="446" y="3" key="CommitChangelistDialog2" timestamp="1578917209609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="357" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578118713729" />
-    <state x="446" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578733351331" />
-    <state width="977" height="379" key="GridCell.Tab.0.bottom" timestamp="1578917113248">
+    <state x="446" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578917209609" />
+    <state width="977" height="374" key="GridCell.Tab.0.bottom" timestamp="1580470379828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="977" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578917113248" />
-    <state width="977" height="379" key="GridCell.Tab.0.center" timestamp="1578917113248">
+    <state width="977" height="374" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580470379828" />
+    <state width="977" height="374" key="GridCell.Tab.0.center" timestamp="1580470379828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="977" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578917113248" />
-    <state width="977" height="379" key="GridCell.Tab.0.left" timestamp="1578917113248">
+    <state width="977" height="374" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580470379828" />
+    <state width="977" height="374" key="GridCell.Tab.0.left" timestamp="1580470379828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="977" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578917113248" />
-    <state width="977" height="379" key="GridCell.Tab.0.right" timestamp="1578917113248">
+    <state width="977" height="374" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580470379828" />
+    <state width="977" height="374" key="GridCell.Tab.0.right" timestamp="1580470379828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="977" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578917113248" />
+    <state width="977" height="374" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580470379828" />
     <state width="977" height="236" key="GridCell.Tab.1.bottom" timestamp="1578455062192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -588,19 +595,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="174" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578828481449" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1578733360354">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1578917220993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578118722144" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578733360354" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578917179409">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578917220993" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580467974748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578917179409" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1578118465671">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580467974748" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1579253674252">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578118465671" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579253674252" />
   </component>
   <component name="masterDetails">
     <states>
