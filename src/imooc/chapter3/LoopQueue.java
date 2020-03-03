@@ -23,6 +23,7 @@ public class LoopQueue<E> implements Queue<E> {
         size = 0;
     }
 
+    // 注意：这里数组里浪费了一个空间，所以是data.length-1
     public int getCapacity(){
         return data.length - 1;
     }

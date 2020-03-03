@@ -5,6 +5,7 @@ package imooc.chapter2;
  * BY Jianlong
  */
 public class Array<E> {
+    // 泛型数组
     private E[] data;
     // 有效元素
     private int size;
@@ -33,12 +34,14 @@ public class Array<E> {
     }
 
     public E get(int index){
+        // 首先判断参数是否合法
         if (index <0 || index >= size){
             throw new IllegalArgumentException("Get failed. Index is illegal.");
         }
         return data[index];
     }
 
+    // 代码复用
     public E getFirst(){
         return get(0);
     }
@@ -48,6 +51,7 @@ public class Array<E> {
     }
 
     public void set(int index, E e){
+        // 首先检查参数是否合法
         if (index <0 || index >= size){
             throw new IllegalArgumentException("Get failed. Index is illegal.");
         }
@@ -93,12 +97,14 @@ public class Array<E> {
         data = newData;
     }
 
-    // 位置插入元素
+    // 在指定的位置插入元素
     public void add(int index, E e){
+        // 判断参数是否合法
         if (index < 0 || index > size){
             throw new IllegalArgumentException("Add failed. Require index >= 0 and <= size");
         }
 
+        // 如果空间被用完，需要对数组进行扩容
         if (size == data.length){
 //            throw new IllegalArgumentException("AddLast failed. Array is full!");
             resize(2 * data.length);
@@ -122,10 +128,12 @@ public class Array<E> {
 
     // 从数组中删除index位置的元素，返回删除的元素
     public E remove(int index){
+        // 判断参数是否合法
         if (index < 0 || index > size){
             throw new IllegalArgumentException("Remove failed. Require index >= 0 and <= size");
         }
 
+        // 将后面的元素往前挪
         E ret = data[index];
         for (int i= index+1; i<size; i++){
             data[i-1] = data[i];
