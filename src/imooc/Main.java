@@ -1,7 +1,9 @@
 package imooc;
 
 
-import imooc.chapter4.LinkedListQueue;
+import imooc.chapter6.BST;
+
+import java.util.Stack;
 
 /**
  * Created on 2020/1/8 0008
@@ -10,13 +12,11 @@ import imooc.chapter4.LinkedListQueue;
 public class Main {
 
     public static void main(String[] args) {
-        LinkedListQueue<Integer> queue = new LinkedListQueue<>();
-        for (int i=0; i<10; i++){
-            queue.enqueue(i);
-            if (i%3 == 2){
-                queue.dequeue();
-            }
-            System.out.println(queue);
-        }
+        Stack<Integer> stack = new Stack<>();
+        stack.push(null);
+        stack.push(null);
+        System.out.println(stack.isEmpty());
+        System.out.println(stack.pop());
+
     }
 }

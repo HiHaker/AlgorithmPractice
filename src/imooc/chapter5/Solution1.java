@@ -63,4 +63,21 @@ public class Solution1 {
         // 注意这里不能返回head，要返回dummyHead.next才对
         return head;
     }
+
+    // 解法3 使用递归算法进行求解
+    public ListNode removeElements3(ListNode head, int val){
+        // 最基本的情况
+        if (head == null){
+            return null;
+        }
+        // 删除头结点后的链表里的元素
+        ListNode childList = removeElements3(head.next, val);
+        // 还要考虑头结点的情况
+        if (head.val == val){
+            return childList;
+        } else{
+            head.next = childList;
+            return head;
+        }
+    }
 }
