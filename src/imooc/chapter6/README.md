@@ -208,3 +208,125 @@ class Node{
 #### 二分搜索树的前序非递归写法
 
 这里使用到了**栈**这种数据结构，用来记录接下来要访问的是哪个节点。
+
+```java
+// 二分搜索树的前序遍历的非递归写法
+    public void preOrderNR(){
+        // 创建一个栈用于存储接下来要访问的节点，类似于系统栈的调用过程
+        Stack<Node> stack = new Stack<>();
+        // 将根节点压入栈
+        stack.push(root);
+
+        while(!stack.isEmpty()){
+            // 取出栈顶元素
+            Node cur = stack.pop();
+            System.out.println(cur.e);
+            if (!(cur.right == null)){
+                stack.push(cur.right);
+            }
+
+            if (!(cur.left == null)){
+                stack.push(cur.left);
+            }
+        }
+    }
+```
+
+#### 二分搜索树的层序遍历
+
+从第0层开始，一层一层地遍历。
+
+![](../img/二分搜索树层序遍历.png)
+
+又称为是广度优先的遍历方式。对于广度优先的方式，一般使用非递归的方式处理，要使用队列这一种结构。
+
+```java
+// 二分搜索树的层序遍历
+    public void levelOrder(){
+        Queue<Node> q = new LinkedList<>();
+        // 首先将根节点进行入队
+        q.add(root);
+        // 当队列不为空时
+        while (!q.isEmpty()){
+            Node cur = q.remove();
+            System.out.println(cur.e);
+            // 如果有左右孩子，就入队
+            if (cur.left != null){
+                q.add(cur.left);
+            }
+            if (cur.right != null){
+                q.add(cur.right);
+            }
+        }
+    }
+```
+
+##### 广度优先遍历的意义
+
+可以让我们更快地找到问题的解，常用于算法设计中，最短路径。在图中也有深度优先遍历和广度优先遍历。
+
+#### 二分搜索树的删除操作
+
+##### 删除最大值和最小值
+
+为了要删除最大值和最小值，我们就需要首先找到最大值和最小值，根据二分搜索树的定义来看，要找到最大值和最小值也非常容易，因为根节点的左子树的所有节点小于根节点，根节点的右子树的所有节点大于根节点，所以说，要寻找最小值，只需要不断寻找左子树就行，相应的，要寻找最大值，只需要不断寻找右子树就行。
+
+##### 删除任意元素
+
+- 1、删除只有左/右孩子的节点，只需要将其节点删除，再将其子树连接到原来的位置即可。
+
+![](../img/只有左孩子.png)
+
+![](../img/只有右孩子.png)
+
+- 2、删除同时拥有左右孩子的节点：hibbard deletion方法。方法思想：删除节点之后我们要将左右子树合并起来。根据二分搜索树的定义，其左子树所有元素小于它，其右子树的所有元素大于它，我们需要从这些元素中找出一个比它大并且和它最接近的元素代替它的位置（或者找比它小和它最接近的元素），这个元素在哪呢？就是右子树中最小的元素。我们找到这个元素，将原根节点的左右子树和它连接就完成了合并操作。
+
+```java
+// 删除以node为根的二分搜索树中值为e的节点，递归算法
+    // 返回删除节点后新的二分搜索树的根
+    private Node remove(Node node, E e){
+        if (node == null){
+            // 表示没找到元素
+            return null;
+        }
+
+        // 如果元素小于根节点，向左子树中删除
+        if (e.compareTo(node.e) < 0){
+            node.left = remove(node.left, e);
+            return node;
+        }
+        else if(e.compareTo(node.e) > 0){
+            node.right = remove(node.right, e);
+            return node;
+        }
+        else{ // e == node.e
+            // 左子树为空
+            if (node.left == null){
+                Node rightNode = node.right;
+                node.right = null;
+                size --;
+                return rightNode;
+            }
+            // 右子树为空
+            if (node.right == null){
+                Node leftNode = node.left;
+                node.left = null;
+                size --;
+                return leftNode;
+            }
+            // 左右子树都不为空
+            Node successor = minimum(node.right);
+            // 这里进行了size-- 
+            successor.right = removeMin(node.right);
+            successor.left = node.left;
+
+            node.left = node.right = null;
+
+            return successor;
+        }
+    }
+```
+
+### 二分搜索树的其他一些说明
+
+二分搜索树的顺序性，所有元素都是有序的，中序遍历就是从小到大排列起来，每一个节点都有其前驱节点和后继节点。floor（比某元素小的最大），ceil（比某元素大的最小），rank（在序列中排第几），select（指定序列中的序号，找到某元素）
