@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/imooc/img/二分搜索树层序遍历.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/img/只有右孩子.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/img/只有左孩子.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/chapter7/AdjMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/chapter7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/chapter7/g.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/img/图01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imooc/img/图02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc/chapter6/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter6/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imooc/chapter6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter6/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -83,13 +82,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.EightQueen" />
+  <component name="RunManager" selected="Application.AdjMatrix">
+    <configuration name="AdjMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imooc.chapter7.AdjMatrix" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course.*" />
+          <option name="PATTERN" value="imooc.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.JobAllocation" />
+    <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course.EightQueen" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdjMatrix" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.LinkedListStack" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.EightQueen" />
-        <item itemvalue="Application.JobAllocation" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +273,16 @@
       <workItem from="1584963400046" duration="4736000" />
       <workItem from="1585216037324" duration="389000" />
       <workItem from="1585358868271" duration="5742000" />
-      <workItem from="1585381214391" duration="2566000" />
+      <workItem from="1585381214391" duration="2824000" />
+      <workItem from="1585384780993" duration="15000" />
+      <workItem from="1585384841230" duration="257000" />
+      <workItem from="1585385115085" duration="15000" />
+      <workItem from="1585385728240" duration="48000" />
+      <workItem from="1585385820332" duration="15000" />
+      <workItem from="1585385850006" duration="19000" />
+      <workItem from="1585385880284" duration="56000" />
+      <workItem from="1585568388679" duration="634000" />
+      <workItem from="1585739489951" duration="5584000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1561814563327</created>
@@ -507,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583247823874</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="二分搜索树">
+      <created>1585384275387</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1585384275387</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -537,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="栈的链表实现" />
     <MESSAGE value="队列的链表实现" />
     <MESSAGE value="实现了可迭代" />
     <MESSAGE value="实现了背包" />
@@ -562,27 +576,28 @@
     <MESSAGE value="栈和队列" />
     <MESSAGE value="链表和栈和队列" />
     <MESSAGE value="初识递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="初识递归" />
+    <MESSAGE value="二分搜索树" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分搜索树" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1584434390706">
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1585741177415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578116439914" />
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584434390706" />
-    <state x="1081" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583320918829">
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585741177415" />
+    <state x="1081" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585384309313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1081" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583320918829" />
+    <state x="1081" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585384309313" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578104169184">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578104169184" />
-    <state x="446" y="3" key="CommitChangelistDialog2" timestamp="1583247821759">
+    <state x="446" y="3" key="CommitChangelistDialog2" timestamp="1585384272941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="357" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578118713729" />
-    <state x="446" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583247821759" />
+    <state x="446" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585384272941" />
     <state width="852" height="215" key="GridCell.Tab.0.bottom" timestamp="1585365559177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -619,23 +634,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="977" height="236" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578455062192" />
-    <state x="981" y="255" key="IDE.errors.dialog" timestamp="1578828334335">
+    <state x="981" y="255" key="IDE.errors.dialog" timestamp="1585568403628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="981" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578828334335" />
-    <state x="663" y="174" key="SettingsEditor" timestamp="1578828481449">
+    <state x="981" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585568403628" />
+    <state x="663" y="174" key="SettingsEditor" timestamp="1585568420189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="663" y="174" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578828481449" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1583247859827">
+    <state x="663" y="174" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585568420189" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1585384289102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578118722144" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583247859827" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585381214372">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585384289102" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585739495230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585381214372" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585739495230" />
     <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1583152436399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
