@@ -69,10 +69,12 @@ public class AdjMatrix {
         }
     }
 
+    // 获取顶点数
     public int getV(){
         return V;
     }
 
+    // 获取边数
     public int getE(){
         return E;
     }
