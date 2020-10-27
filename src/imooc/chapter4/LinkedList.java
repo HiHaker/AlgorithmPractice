@@ -56,7 +56,7 @@ public class LinkedList<E> {
     // 关键就是需要找到要添加的节点的位置的前一个节点
     // 在链表的操作中，顺序很重要
     // 在链表的index(0-based)位置添加新的元素e
-    // 这个在练习中不是一个常用操作，练习用:)
+    // 这个在实际中不是一个常用操作，练习用:)
     public void add(int index, E e){
         if (index < 0 || index > size){
             throw new IllegalArgumentException("Add failed, illegal index.");

@@ -1,9 +1,9 @@
 package imooc;
 
 
-import imooc.chapter6.BST;
+import imooc.chapter2.Array;
 
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Created on 2020/1/8 0008
@@ -12,21 +12,17 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-        BST<Integer> myBST = new BST<>();
-        myBST.add(28);
-        myBST.add(16);
-        myBST.add(30);
-        myBST.add(13);
-        myBST.add(22);
-        myBST.add(29);
-        myBST.add(42);
-        myBST.levelOrder();
-        myBST.removeMin();
-        System.out.println("--------------------------------");
-        myBST.levelOrder();
-        myBST.removeMax();
-        System.out.println("--------------------------------");
-
-        myBST.levelOrder();
+        Array<Integer> myArr = new Array<>();
+        myArr.addLast(1);
+        myArr.addLast(2);
+        myArr.addLast(3);
+        myArr.addLast(4);
+        System.out.println(myArr);
+        myArr.add(0, 5);
+        System.out.println(myArr);
+        myArr.add(1,6);
+        System.out.println(myArr);
+        myArr.remove(5);
+        System.out.println(myArr);
     }
 }

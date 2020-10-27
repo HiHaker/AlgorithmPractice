@@ -1,28 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter7/AdjMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/chapter7/g.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/img/图01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imooc/img/图02.png" afterDir="false" />
+    <list default="true" id="7e0ac618-ec39-4003-aea2-ce2ddeaf5ee4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Base/NewtonMethodSQRT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCF/CaesarDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCF/Omultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCF/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CCF/TreePlant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/FourSum/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/FourSum/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/FourSum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/LeetCode/ThreeSum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/LeetCode/ThreeSum/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/LeetCode/ThreeSum/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/LeetCode/ThreeSum/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/META-INF/AlgorithmPractice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter2/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter2/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmPractice/imooc/chapter6/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/ThreeSum/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ThreeSum/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/ThreeSum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/ThreeSum/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/chapter2/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter2/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/chapter2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/chapter4/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter4/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/chapter4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/imooc/chapter6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/imooc/chapter6/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,99 +48,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="D:\programs\Apache\maven-repository" />
-        <option name="mavenHome" value="D:/programs/Apache/maven" />
-        <option name="userSettingsFile" value="D:\programs\Apache\maven\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1Qp0cKgsndqt4n53J9HD1s5AsZ0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="1b4RrelZqe6DLubD2UNNEzJWgCw" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="unitTest" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.AdjMatrix">
-    <configuration name="AdjMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.chapter7.AdjMatrix" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="imooc.chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EightQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course.EightQueen" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.chapter4.LinkedListStack" />
-      <module name="AlgorithmPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="imooc.chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="imooc.Main" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
@@ -135,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imooc.chapter2.Main" />
+    <configuration name="NewtonMethodSQRT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Base.NewtonMethodSQRT" />
       <module name="AlgorithmPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imooc.chapter2.*" />
+          <option name="PATTERN" value="Base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.FourSum.Solution" />
+      <module name="AlgorithmPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.FourSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdjMatrix" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.LinkedListStack" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.EightQueen" />
+        <item itemvalue="Application.NewtonMethodSQRT" />
       </list>
     </recent_temporary>
   </component>
@@ -175,502 +136,83 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ccc86bd-af95-4102-be51-e0289365f60e" name="Default Changelist" comment="" />
-      <created>1561814187512</created>
+      <changelist id="7e0ac618-ec39-4003-aea2-ce2ddeaf5ee4" name="Default Changelist" comment="" />
+      <created>1587889579283</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561814187512</updated>
-      <workItem from="1561814188934" duration="5610000" />
-      <workItem from="1561901485576" duration="4425000" />
-      <workItem from="1561982718158" duration="4336000" />
-      <workItem from="1561991466257" duration="1805000" />
-      <workItem from="1562065911238" duration="2547000" />
-      <workItem from="1562336872723" duration="1329000" />
-      <workItem from="1562903537865" duration="5000" />
-      <workItem from="1562941447404" duration="974000" />
-      <workItem from="1562981603082" duration="4804000" />
-      <workItem from="1563006081042" duration="4437000" />
-      <workItem from="1563018963878" duration="3412000" />
-      <workItem from="1563258142386" duration="64000" />
-      <workItem from="1563540183613" duration="1943000" />
-      <workItem from="1563623858075" duration="42000" />
-      <workItem from="1563671808850" duration="2931000" />
-      <workItem from="1563698489130" duration="1097000" />
-      <workItem from="1563779768182" duration="7518000" />
-      <workItem from="1563802646887" duration="5548000" />
-      <workItem from="1563856910096" duration="3825000" />
-      <workItem from="1563878855026" duration="4843000" />
-      <workItem from="1563933545142" duration="13000" />
-      <workItem from="1563933581910" duration="12418000" />
-      <workItem from="1563956670025" duration="5303000" />
-      <workItem from="1564021269939" duration="9426000" />
-      <workItem from="1564043606112" duration="10162000" />
-      <workItem from="1564106870992" duration="1274000" />
-      <workItem from="1564121535271" duration="7000" />
-      <workItem from="1564362409287" duration="2894000" />
-      <workItem from="1568452310247" duration="5694000" />
-      <workItem from="1568515131340" duration="10000" />
-      <workItem from="1569126421701" duration="5229000" />
-      <workItem from="1569134480891" duration="3283000" />
-      <workItem from="1569309082787" duration="125000" />
-      <workItem from="1569313588946" duration="17000" />
-      <workItem from="1570451924350" duration="587000" />
-      <workItem from="1570453377350" duration="2208000" />
-      <workItem from="1570774069673" duration="2149000" />
-      <workItem from="1570778364369" duration="4374000" />
-      <workItem from="1570790019642" duration="7382000" />
-      <workItem from="1571668433214" duration="4778000" />
-      <workItem from="1571703241790" duration="11056000" />
-      <workItem from="1571725163634" duration="968000" />
-      <workItem from="1571731391042" duration="5295000" />
-      <workItem from="1571817790518" duration="705000" />
-      <workItem from="1571818519927" duration="142000" />
-      <workItem from="1571818677496" duration="282000" />
-      <workItem from="1571818975529" duration="4440000" />
-      <workItem from="1571830236195" duration="3328000" />
-      <workItem from="1571879152788" duration="25000" />
-      <workItem from="1572501766283" duration="95000" />
-      <workItem from="1572501941265" duration="1621000" />
-      <workItem from="1573051659187" duration="2640000" />
-      <workItem from="1573287573883" duration="11000" />
-      <workItem from="1574233003223" duration="3951000" />
-      <workItem from="1574245161410" duration="7533000" />
-      <workItem from="1574262116793" duration="2598000" />
-      <workItem from="1574296485640" duration="514000" />
-      <workItem from="1574817216242" duration="3119000" />
-      <workItem from="1574851812536" duration="88000" />
-      <workItem from="1574852040022" duration="143000" />
-      <workItem from="1574852224297" duration="15000" />
-      <workItem from="1575333951109" duration="9082000" />
-      <workItem from="1575351793329" duration="6098000" />
-      <workItem from="1575373200477" duration="653000" />
-      <workItem from="1578104133122" duration="4176000" />
-      <workItem from="1578365707601" duration="39000" />
-      <workItem from="1578450471217" duration="4583000" />
-      <workItem from="1578720655895" duration="89000" />
-      <workItem from="1578720830937" duration="5651000" />
-      <workItem from="1578747404070" duration="10000" />
-      <workItem from="1578821734353" duration="4454000" />
-      <workItem from="1578903197755" duration="7616000" />
-      <workItem from="1578917171309" duration="454000" />
-      <workItem from="1579245229982" duration="7028000" />
-      <workItem from="1579515766533" duration="1751000" />
-      <workItem from="1580456968364" duration="30000" />
-      <workItem from="1580457071954" duration="3750000" />
-      <workItem from="1580467974437" duration="2818000" />
-      <workItem from="1580917750593" duration="8000" />
-      <workItem from="1582875257536" duration="14000" />
-      <workItem from="1583148257311" duration="9206000" />
-      <workItem from="1583232102097" duration="11435000" />
-      <workItem from="1583320549995" duration="1006000" />
-      <workItem from="1583321640513" duration="2531000" />
-      <workItem from="1583632728244" duration="25000" />
-      <workItem from="1583800252334" duration="3666000" />
-      <workItem from="1583813667680" duration="34000" />
-      <workItem from="1584356960730" duration="4619000" />
-      <workItem from="1584432984486" duration="3112000" />
-      <workItem from="1584961755393" duration="1574000" />
-      <workItem from="1584963400046" duration="4736000" />
-      <workItem from="1585216037324" duration="389000" />
-      <workItem from="1585358868271" duration="5742000" />
-      <workItem from="1585381214391" duration="2824000" />
-      <workItem from="1585384780993" duration="15000" />
-      <workItem from="1585384841230" duration="257000" />
-      <workItem from="1585385115085" duration="15000" />
-      <workItem from="1585385728240" duration="48000" />
-      <workItem from="1585385820332" duration="15000" />
-      <workItem from="1585385850006" duration="19000" />
-      <workItem from="1585385880284" duration="56000" />
-      <workItem from="1585568388679" duration="634000" />
-      <workItem from="1585739489951" duration="5584000" />
+      <updated>1587889579283</updated>
+      <workItem from="1587889581297" duration="40000" />
+      <workItem from="1587890477805" duration="197000" />
+      <workItem from="1588213195974" duration="978000" />
+      <workItem from="1588214500759" duration="1195000" />
+      <workItem from="1588510648451" duration="24000" />
+      <workItem from="1589642956285" duration="1441000" />
+      <workItem from="1589677378013" duration="2006000" />
+      <workItem from="1589800207052" duration="14000" />
+      <workItem from="1589848566986" duration="243000" />
+      <workItem from="1589853460486" duration="4000" />
+      <workItem from="1589855095790" duration="1906000" />
+      <workItem from="1592745572812" duration="485000" />
+      <workItem from="1592811654499" duration="95000" />
+      <workItem from="1594386020618" duration="1656000" />
+      <workItem from="1595734831631" duration="18000" />
+      <workItem from="1598238743494" duration="8830000" />
+      <workItem from="1598494427719" duration="231000" />
+      <workItem from="1598840054613" duration="1538000" />
+      <workItem from="1599738146435" duration="309000" />
+      <workItem from="1603626300880" duration="3560000" />
+      <workItem from="1603689968601" duration="8582000" />
+      <workItem from="1603783840126" duration="371000" />
     </task>
-    <task id="LOCAL-00001" summary="初始化">
-      <created>1561814563327</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1561814563327</updated>
-    </task>
-    <task id="LOCAL-00002" summary="说明">
-      <created>1561814738789</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1561814738789</updated>
-    </task>
-    <task id="LOCAL-00003" summary="简单的泛型类编写">
-      <created>1561816781329</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1561816781329</updated>
-    </task>
-    <task id="LOCAL-00004" summary="定容栈实现">
-      <created>1561819612558</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1561819612558</updated>
-    </task>
-    <task id="LOCAL-00005" summary="定容栈增加泛型">
-      <created>1561904696604</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1561904696604</updated>
-    </task>
-    <task id="LOCAL-00006" summary="较好的可动态增长栈实现">
-      <created>1561905248156</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1561905248156</updated>
-    </task>
-    <task id="LOCAL-00007" summary="链表学习起步">
-      <created>1561987017254</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1561987017254</updated>
-    </task>
-    <task id="LOCAL-00008" summary="栈的链表实现">
-      <created>1561993244927</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1561993244927</updated>
-    </task>
-    <task id="LOCAL-00009" summary="队列的链表实现">
-      <created>1562070200213</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1562070200213</updated>
-    </task>
-    <task id="LOCAL-00010" summary="实现了可迭代">
-      <created>1562337626983</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1562337626983</updated>
-    </task>
-    <task id="LOCAL-00011" summary="实现了背包">
-      <created>1562338130248</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1562338130248</updated>
-    </task>
-    <task id="LOCAL-00012" summary="数据结构mooc学习-week1">
-      <created>1562942392722</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1562942392722</updated>
-    </task>
-    <task id="LOCAL-00013" summary="数据结构mooc学习-week1">
-      <created>1562984655525</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1562984655525</updated>
-    </task>
-    <task id="LOCAL-00014" summary="数据结构mooc学习-week1">
-      <created>1562990659788</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1562990659788</updated>
-    </task>
-    <task id="LOCAL-00015" summary="最大子列和问题">
-      <created>1563008611227</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1563008611227</updated>
-    </task>
-    <task id="LOCAL-00016" summary="MaximumSubseqSum">
-      <created>1563022312152</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1563022312152</updated>
-    </task>
-    <task id="LOCAL-00017" summary="二分查找">
-      <created>1563541339323</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1563541339323</updated>
-    </task>
-    <task id="LOCAL-00018" summary="修正了错误">
-      <created>1563541984937</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1563541984937</updated>
-    </task>
-    <task id="LOCAL-00019" summary="线性表的顺序存储">
-      <created>1563785161394</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1563785161394</updated>
-    </task>
-    <task id="LOCAL-00020" summary="线性表的链式存储">
-      <created>1563806967821</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1563806967821</updated>
-    </task>
-    <task id="LOCAL-00021" summary="栈的顺序存储和链式存储">
-      <created>1563859194410</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1563859194410</updated>
-    </task>
-    <task id="LOCAL-00022" summary="更新了博客">
-      <created>1563861060181</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1563861060181</updated>
-    </task>
-    <task id="LOCAL-00023" summary="队列的线性存储和链式存储">
-      <created>1563883389292</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1563883389292</updated>
-    </task>
-    <task id="LOCAL-00024" summary="有序链表合并和多项式的加减">
-      <created>1563965560322</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1563965560322</updated>
-    </task>
-    <task id="LOCAL-00025" summary="ReversingLinkedList">
-      <created>1564031186915</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1564031186915</updated>
-    </task>
-    <task id="LOCAL-00026" summary="PopSequence">
-      <created>1564054904289</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1564054904289</updated>
-    </task>
-    <task id="LOCAL-00027" summary="算法设计课程作业">
-      <created>1569309151624</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1569309151624</updated>
-    </task>
-    <task id="LOCAL-00028" summary="增加了自底向上的归并排序算法">
-      <created>1570798888377</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1570798888377</updated>
-    </task>
-    <task id="LOCAL-00029" summary="N皇后问题">
-      <created>1578118716092</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1578118716092</updated>
-    </task>
-    <task id="LOCAL-00030" summary="动态数组学习">
-      <created>1578733353305</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1578733353305</updated>
-    </task>
-    <task id="LOCAL-00031" summary="栈和队列">
-      <created>1578917212051</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1578917212051</updated>
-    </task>
-    <task id="LOCAL-00032" summary="链表和栈和队列">
-      <created>1580470779542</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1580470779542</updated>
-    </task>
-    <task id="LOCAL-00033" summary="初识递归">
-      <created>1583247823874</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1583247823874</updated>
-    </task>
-    <task id="LOCAL-00034" summary="二分搜索树">
-      <created>1585384275387</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1585384275387</updated>
-    </task>
-    <option name="localTasksCounter" value="35" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="队列的链表实现" />
-    <MESSAGE value="实现了可迭代" />
-    <MESSAGE value="实现了背包" />
-    <MESSAGE value="数据结构mooc学习-week1" />
-    <MESSAGE value="数据结构mooc学习-最大子列和问题" />
-    <MESSAGE value="最大子列和问题" />
-    <MESSAGE value="MaximumSubseqSum" />
-    <MESSAGE value="二分查找" />
-    <MESSAGE value="修正了错误" />
-    <MESSAGE value="线性表的顺序存储" />
-    <MESSAGE value="线性表的链式存储" />
-    <MESSAGE value="栈的顺序存储和链式存储" />
-    <MESSAGE value="更新了博客" />
-    <MESSAGE value="队列的线性存储和链式存储" />
-    <MESSAGE value="有序链表合并和多项式的加减" />
-    <MESSAGE value="ReversingLinkedList" />
-    <MESSAGE value="PopSequence" />
-    <MESSAGE value="算法设计课程作业" />
-    <MESSAGE value="增加了自底向上的归并排序算法" />
-    <MESSAGE value="N皇后问题" />
-    <MESSAGE value="动态数组学习" />
-    <MESSAGE value="栈和队列" />
-    <MESSAGE value="链表和栈和队列" />
-    <MESSAGE value="初识递归" />
-    <MESSAGE value="二分搜索树" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分搜索树" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1585741177415">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578116439914" />
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585741177415" />
-    <state x="1081" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585384309313">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1081" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585384309313" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578104169184">
+    <state width="1493" height="46" key="GridCell.Tab.0.bottom" timestamp="1603700606360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578104169184" />
-    <state x="446" y="3" key="CommitChangelistDialog2" timestamp="1585384272941">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="46" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603700606360" />
+    <state width="1493" height="46" key="GridCell.Tab.0.center" timestamp="1603700606360">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="357" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578118713729" />
-    <state x="446" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585384272941" />
-    <state width="852" height="215" key="GridCell.Tab.0.bottom" timestamp="1585365559177">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="46" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603700606360" />
+    <state width="1493" height="46" key="GridCell.Tab.0.left" timestamp="1603700606360">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="852" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585365559177" />
-    <state width="852" height="215" key="GridCell.Tab.0.center" timestamp="1585365559176">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="46" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603700606360" />
+    <state width="1493" height="46" key="GridCell.Tab.0.right" timestamp="1603700606360">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="852" height="215" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585365559176" />
-    <state width="852" height="215" key="GridCell.Tab.0.left" timestamp="1585365559176">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="46" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603700606360" />
+    <state width="1493" height="131" key="GridCell.Tab.1.bottom" timestamp="1603700606354">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="852" height="215" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585365559176" />
-    <state width="852" height="215" key="GridCell.Tab.0.right" timestamp="1585365559177">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="131" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603700606354" />
+    <state width="1493" height="131" key="GridCell.Tab.1.center" timestamp="1603700606354">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="181" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578142536503" />
-    <state width="852" height="215" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585365559177" />
-    <state width="977" height="236" key="GridCell.Tab.1.bottom" timestamp="1578455062192">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="131" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603700606354" />
+    <state width="1493" height="131" key="GridCell.Tab.1.left" timestamp="1603700606354">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="977" height="236" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578455062192" />
-    <state width="977" height="236" key="GridCell.Tab.1.center" timestamp="1578455062192">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="131" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603700606354" />
+    <state width="1493" height="131" key="GridCell.Tab.1.right" timestamp="1603700606354">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="977" height="236" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578455062192" />
-    <state width="977" height="236" key="GridCell.Tab.1.left" timestamp="1578455062191">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="131" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603700606354" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1598238872921">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="977" height="236" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578455062191" />
-    <state width="977" height="236" key="GridCell.Tab.1.right" timestamp="1578455062192">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598238872921" />
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1603784195125">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="977" height="236" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578455062192" />
-    <state x="981" y="255" key="IDE.errors.dialog" timestamp="1585568403628">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="981" y="255" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585568403628" />
-    <state x="663" y="174" key="SettingsEditor" timestamp="1585568420189">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="663" y="174" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585568420189" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1585384289102">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578118722144" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585384289102" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585739495230">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585739495230" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1583152436399">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1578118465671" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583152436399" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="512" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603784195125" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595734832293" />
   </component>
 </project>

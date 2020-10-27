@@ -129,8 +129,8 @@ public class Array<E> {
     // 从数组中删除index位置的元素，返回删除的元素
     public E remove(int index){
         // 判断参数是否合法
-        if (index < 0 || index > size){
-            throw new IllegalArgumentException("Remove failed. Require index >= 0 and <= size");
+        if (index < 0 || index >= size){
+            throw new IllegalArgumentException("Remove failed. Require index >= 0 and < size");
         }
 
         // 将后面的元素往前挪
